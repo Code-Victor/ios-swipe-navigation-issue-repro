@@ -4,7 +4,7 @@ export default function InnerStack() {
   console.log("In inner layout");
   return (
     <>
-      <Stack.Screen options={{ headerShown: false }} />
+      <Stack.Screen options={{ headerShown: false, gestureEnabled: "false" }} />
       <Stack />
     </>
   );
