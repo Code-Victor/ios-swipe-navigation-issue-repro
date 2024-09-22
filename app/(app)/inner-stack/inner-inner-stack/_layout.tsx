@@ -1,10 +1,10 @@
 import { Stack } from "expo-router";
 
-export default function InnerStack() {
+export default function InnerInnerStack() {
   console.log("In inner layout");
   return (
     <>
-      <Stack.Screen options={{ headerShown: false, gestureEnabled: false }} />
+      <Stack.Screen options={{ headerShown: false }} />
       <Stack />
     </>
   );
